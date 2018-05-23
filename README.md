@@ -1,58 +1,39 @@
-# Memory Game Project
-
-Udacity FEND Memory Game Project | Made with vanilla JavaScript
+frontend-nanodegree-arcade-game
+===============================
 
 ## Future updates
 
-Due to falling slightly behind on the udacity FEND course updates will be postponed for a short while :)
+Over the next few week this game will recieve a variety of updates including:
 
-* Adding a better timer and having it intergrated into the score system.
-* Attempting to build my own shuffle function.
-
+* Collectable items e.g hearts to regain health.
+* Special items which could possible alter player speed
+* Multiple Levels
 
 ### How to play
 
-* When the game loads the timer will start.
-* Click the tiles to turn them over. Make sure to remember the currency you saw.
-* Flip another card, if it matched, the cards will stay on screen. 
-* If the cards don't match, they will both turn back over.
-* Repeat untill all the cards are matched.
+* The game will automatically load when the page is opened
+* Change the character using the SPACEBAR when stood at the starting position
+* Use the arrow keys to move your character
+* The aim of the game it to reach the water avoiding the bugs to increment the score
+
+### In-game hazzards
+
+* Avoid bugs, if a bug touches you your position is reset to the starting position and you lose a life
+* Every time you reach the water a new bug is added to the game 
+* If you run out of lives the game will be reset, setting your lives back to three, removing all enemies and reseting your score.
 
 ## Options to play
 
-* Download or clone the game from the Github repository and load index.html in tour browser.
-* Click this link and play the live version.
+* Download or clone the game from the Github repository, then load the index.html in your browser
+* Click this link to play the live version of the game.
 
-### Difficulty
+## Dependencies
 
-There is three possible star ratings you can achieve based on how many moves it takes you to complete the game.
+[Udacity frontend arcade game](https://github.com/udacity/frontend-nanodegree-arcade-game) - Game loop engine and visual assets.
+[MDN Web docs - math.floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) - Math.floor
+[Kirupa.com](https://www.kirupa.com/html5/picking_random_item_from_array.htm) - Choosing a random item from an array
 
-* Easy - 22 Moves 
-* Medium - 16 Moves
-* Hard - 12 Moves
 
-## Features
+Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-* Timer - The timer will start when the game begins and you will be given your time at the end of the game.
-* Move counter - Displays the current number of moves you have made.
-* Star rating - Dynamically displays your current star rating, starting at three stars and dropping to zero as you make your moves.
-* Restart button - Made a mistake? don't worry, click the reset button to start the game fresh.
-
-## The Instructions i recieved for the project
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Dependencies 
-
-[Font Awesome](https://fontawesome.com/) - Currency icons from FontAwesome.
-[w3schools how to make modals](https://www.w3schools.com/howto/howto_css_modals.asp) - Information on how to make modals.
+For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).

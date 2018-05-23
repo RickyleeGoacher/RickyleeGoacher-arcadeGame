@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+#score-display {
+	width: 50%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+span {
+	font-size: 2em;
+}
+
+.score {
+	margin-right: 5%;
+}
+
+#instructions{
+	width: 20%;
+	position: absolute;
+	padding: 2%;
+	left: 5%;
+}
